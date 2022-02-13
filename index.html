@@ -5,8 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bank System</title>
+    <!-- Tailwind CSS link -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-orange-200">
+    <header>
+        <h1 class="text-4xl font-bold text-center mt-5 text-orange-400">Welcome to my <span class="text-orange-700">Bank</span></h1>
+    </header>
+    <main>
+        <section class="bg-orange-600 w-3/4 mx-auto mt-5 rounded-3xl p-8">
+            <h3 class="text-stone-700 text-center font-semibold mb-3 text-2xl">Please Enter Account Details</h3>
+            <div class="text-center">
+                <input class="w-3/4 mx-auto block border-2 border-red-400 p-1 m-1" type="text" placeholder="Please enter email" name="" id="email-field">
+                <input class="w-3/4 mx-auto  block border-2 border-red-400 p-1 m-1" type="password" placeholder="Please enter password" name="" id="password-field">
+                <button id="login-btn" class="hidden text-gray-600 font-semibold px-4 py-2 bg-stone-300 rounded mt-3">Login</button>
+
+            </div>
+
+        </section>
+
+
+    </main>
+    <!-- External Js -->
+    <script src="script.js"></script>
     
 </body>
 </html>
